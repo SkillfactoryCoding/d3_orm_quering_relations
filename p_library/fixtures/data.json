@@ -1,0 +1,189 @@
+[
+  {
+    "model": "bookclub.author",
+    "pk": "58a38613-949a-4415-af15-312071e46087",
+    "fields": {
+      "full_name": "\u0422\u0443\u0440\u0433\u0435\u043d\u0435\u0432 \u0418\u0432\u0430\u043d \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447",
+      "birth_year": 1818,
+      "country": "RU"
+    }
+  },
+  {
+    "model": "bookclub.author",
+    "pk": "5ff2adc3-7935-400e-9e65-b27116edb027",
+    "fields": {
+      "full_name": "Jerome David Salinger",
+      "birth_year": 1919,
+      "country": "US"
+    }
+  },
+  {
+    "model": "bookclub.author",
+    "pk": "694d2304-e270-4bcf-95bd-4dd3d37bf0c0",
+    "fields": {
+      "full_name": "Knut Hamsun",
+      "birth_year": 1859,
+      "country": "NO"
+    }
+  },
+  {
+    "model": "bookclub.author",
+    "pk": "a36e9d1e-b278-4e61-8cf8-36f21bc40ad9",
+    "fields": {
+      "full_name": "Douglas Adams",
+      "birth_year": 1952,
+      "country": "UK"
+    }
+  },
+  {
+    "model": "bookclub.author",
+    "pk": "b822ee87-e5a8-4644-82f2-e51efc556ba5",
+    "fields": {
+      "full_name": "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0438\u0447 \u0413\u043e\u0433\u043e\u043b\u044c",
+      "birth_year": 1809,
+      "country": "RU"
+    }
+  },
+  {
+    "model": "bookclub.author",
+    "pk": "d4b62374-0763-427b-8af1-40c1e282b978",
+    "fields": {
+      "full_name": "\u041f\u0443\u0448\u043a\u0438\u043d \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447",
+      "birth_year": 1799,
+      "country": "RU"
+    }
+  },
+  {
+    "model": "bookclub.book",
+    "pk": "058ae99d-f71a-4907-94b0-390a21a370ed",
+    "fields": {
+      "ISBN": "9789755630311",
+      "title": "\u041c\u0435\u0434\u043d\u044b\u0439 \u0432\u0441\u0430\u0434\u043d\u0438\u043a",
+      "description": "\u041f\u043e\u044d\u043c\u0430 \u0410. \u0421. \u041f\u0443\u0448\u043a\u0438\u043d\u0430.",
+      "year_release": 1837,
+      "copy_count": 4,
+      "price": "1884.04",
+      "author": "d4b62374-0763-427b-8af1-40c1e282b978"
+    }
+  },
+  {
+    "model": "bookclub.book",
+    "pk": "1149a50f-868b-450a-88b5-4cf0cf3ba55e",
+    "fields": {
+      "ISBN": "9788588603271",
+      "title": "\u0420\u0435\u0432\u0438\u0437\u043e\u0440",
+      "description": "\u041a\u043e\u043c\u0435\u0434\u0438\u044f \u0432 \u043f\u044f\u0442\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f\u0445 \u0440\u0443\u0441\u0441\u043a\u043e\u0433\u043e \u043f\u0438\u0441\u0430\u0442\u0435\u043b\u044f \u041d\u0438\u043a\u043e\u043b\u0430\u044f \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0438\u0447\u0430 \u0413\u043e\u0433\u043e\u043b\u044f.",
+      "year_release": 1835,
+      "copy_count": 3,
+      "price": "2284.66",
+      "author": "b822ee87-e5a8-4644-82f2-e51efc556ba5"
+    }
+  },
+  {
+    "model": "bookclub.book",
+    "pk": "2daebd9f-43ff-435f-8806-e650c615de6b",
+    "fields": {
+      "ISBN": "9781447297017",
+      "title": "The Catcher in the Rye",
+      "description": "It was originally intended for adults but is often read by adolescents for its themes of angst and alienation, and as a critique on superficiality in society.",
+      "year_release": 1951,
+      "copy_count": 3,
+      "price": "803.60",
+      "author": "5ff2adc3-7935-400e-9e65-b27116edb027"
+    }
+  },
+  {
+    "model": "bookclub.book",
+    "pk": "61908768-2db1-4ab8-9f88-b124ae0d8637",
+    "fields": {
+      "ISBN": "9785457325753",
+      "title": "\u0413\u0440\u0430\u0444 \u041d\u0443\u043b\u0438\u043d",
+      "description": "\u041a\u043e\u0440\u043e\u0442\u043a\u0430\u044f \u0448\u0443\u0442\u043e\u0447\u043d\u0430\u044f \u043f\u043e\u044d\u043c\u0430, \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043d\u0430\u044f \u041f\u0443\u0448\u043a\u0438\u043d\u044b\u043c \u0432\u0441\u0435\u0433\u043e \u0437\u0430 \u0434\u0432\u0430 \u0443\u0442\u0440\u0430 13 \u0438 14 \u0434\u0435\u043a\u0430\u0431\u0440\u044f 1825 \u0433\u043e\u0434\u0430 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0441\u0441\u044b\u043b\u043a\u0438 \u0432 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u0441\u043a\u043e\u043c.",
+      "year_release": 1825,
+      "copy_count": 2,
+      "price": "2170.84",
+      "author": "d4b62374-0763-427b-8af1-40c1e282b978"
+    }
+  },
+  {
+    "model": "bookclub.book",
+    "pk": "81af8df8-4f06-4457-97e0-1c0f2fdb551a",
+    "fields": {
+      "ISBN": "9781072923893",
+      "title": "\u041d\u043e\u0432\u044c",
+      "description": "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u043f\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0438 \u0441\u0430\u043c\u044b\u0439 \u0434\u043b\u0438\u043d\u043d\u044b\u0439 \u0440\u043e\u043c\u0430\u043d \u0418\u0432\u0430\u043d\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447\u0430 \u0422\u0443\u0440\u0433\u0435\u043d\u0435\u0432\u0430.",
+      "year_release": 1877,
+      "copy_count": 4,
+      "price": "1644.10",
+      "author": "58a38613-949a-4415-af15-312071e46087"
+    }
+  },
+  {
+    "model": "bookclub.book",
+    "pk": "98986f29-0826-4a55-a401-babf8ef5a8a9",
+    "fields": {
+      "ISBN": "9781447297017",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "description": "Has become an international multi-media phenomenon",
+      "year_release": 1979,
+      "copy_count": 3,
+      "price": "2044.16",
+      "author": "a36e9d1e-b278-4e61-8cf8-36f21bc40ad9"
+    }
+  },
+  {
+    "model": "bookclub.book",
+    "pk": "a2fd0dc7-9d77-4371-b2ae-d289b7fcfb66",
+    "fields": {
+      "ISBN": "9783036959542",
+      "title": "So Long, and Thanks for All the Fish",
+      "description": "Is the fourth book of the Hitchhiker's Guide to the Galaxy",
+      "year_release": 1984,
+      "copy_count": 4,
+      "price": "2092.53",
+      "author": "a36e9d1e-b278-4e61-8cf8-36f21bc40ad9"
+    }
+  },
+  {
+    "model": "bookclub.book",
+    "pk": "b833ffe8-e978-4830-8722-84457a7b87b1",
+    "fields": {
+      "ISBN": "9785170622207",
+      "title": "The Growth of the Soil",
+      "description": "Story of a man who settles and lives in rural Norway.",
+      "year_release": 1917,
+      "copy_count": 2,
+      "price": "939.70",
+      "author": "694d2304-e270-4bcf-95bd-4dd3d37bf0c0"
+    }
+  },
+  {
+    "model": "bookclub.book",
+    "pk": "da20b33e-e13e-4d13-8efa-b02432387496",
+    "fields": {
+      "ISBN": "9785931240053",
+      "title": "\u0420\u0443\u0441\u043b\u0430\u043d \u0438 \u041b\u044e\u0434\u043c\u0438\u043b\u0430",
+      "description": "\u0412\u043e\u043b\u0448\u0435\u0431\u043d\u0430\u044f \u0441\u043a\u0430\u0437\u043a\u0430, \u0432\u0434\u043e\u0445\u043d\u043e\u0432\u043b\u0451\u043d\u043d\u0430\u044f \u0434\u0440\u0435\u0432\u043d\u0435\u0440\u0443\u0441\u0441\u043a\u0438\u043c\u0438 \u0431\u044b\u043b\u0438\u043d\u0430\u043c\u0438.",
+      "year_release": 1820,
+      "copy_count": 1,
+      "price": "789.15",
+      "author": "d4b62374-0763-427b-8af1-40c1e282b978"
+    }
+  },
+  {
+    "model": "bookclub.reader",
+    "pk": "4f1c1399-b11e-4575-83e7-146d97868f6c",
+    "fields": {
+      "name": "Garry"
+    }
+  },
+  {
+    "model": "bookclub.bookreading",
+    "pk": 1,
+    "fields": {
+      "book": "da20b33e-e13e-4d13-8efa-b02432387496",
+      "reader": "4f1c1399-b11e-4575-83e7-146d97868f6c",
+      "completion": null
+    }
+  }
+]
